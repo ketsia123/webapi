@@ -1,0 +1,4 @@
+*.suo
+packages/
+WebApi/bin/
+WebApi/obj/
