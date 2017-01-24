@@ -1,4 +1,4 @@
 *.suo
 packages/
-WebApi/bin/
-WebApi/obj/
+REST/bin/
+REST/obj/
