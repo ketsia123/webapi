@@ -2,3 +2,8 @@
 packages/
 REST/bin/
 REST/obj/
+WebApplication1/bin/Microsoft.AspNetCore.JsonPatch.dll
+WebApplication1/
+WebApi/bin/
+WebApi/obj/
+WebApplication1.sln

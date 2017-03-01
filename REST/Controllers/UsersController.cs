@@ -74,5 +74,14 @@ namespace REST.Controllers
             }
             return deletedUsers;
         }
+
+        [HttpPost]
+        [Route("login")]
+        [ValidationActionFilter()]
+        public IHttpActionResult Login(LoginRequest request) {
+            /*Verify username and pwd and throw exception if invalid*/
+            throw new ValidationException("users.login.invalidUserNameOrPwd");
+        }
     }
+    public class LoginRequest { }
 }
